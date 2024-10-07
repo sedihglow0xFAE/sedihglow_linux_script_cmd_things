@@ -1,0 +1,6 @@
+nodemon -e py --exec 'clear; python -u test.py; test 1' 
+
+This updates a term when a file changes. Runs every time file changes.
+
+c-makefile - changes when c or make.
+stuff like that.

@@ -1,0 +1,31 @@
+-------- init notes from list on ascii stuffs ---
+- asciinema setup script
+  - make sure you know how to use it.
+    - asciinema rec -c "asciinema play -s 5 -i 2 initial.cast" -t "My fancy title" final.cast
+    -
+	 Available options:
+	      -i, --idle-time-limit=<sec>
+		     Limit  replayed  terminal inactivity to max <sec> seconds (can be frac‐
+		     tional)
+
+	      -s, --speed=<factor>
+		     Playback speed (can be fractional)
+
+ While playing the following keyboard shortcuts are available:
+
+	      Space  Toggle pause
+
+	      .	     Step through a recording a frame at a time (when paused)
+
+	      Ctrl+C Exit
+
+       Recommendation: run `asciinema play' in a terminal of dimensions not smaller than the
+       one  used  for recording as there’s no “transcoding” of control sequences for the new
+       terminal size.
+
+
+---------------------------
+
+
+
+

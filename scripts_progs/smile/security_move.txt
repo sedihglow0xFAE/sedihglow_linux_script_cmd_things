@@ -1,0 +1,9 @@
+Wrapper around gcc (or w/e) that prints stuff, no one knows your compiling, it
+even says its compiling. It says its compiling because it lets someone know your
+compiling so they dont control C until you catch the exception and control C
+doesnt stop compilation but brings you to another printout loop that says not
+compiling, then they think they stopped your compilation, then it starts
+printing again after awhile to let you know, maybe it was compiling, maybe it
+got stopped, maybe it started after it got stopped, who knows what the wrapper
+around gcc does and how many function layers (abstraction) there are doing
+nonsense while compiling for a background of smiles.

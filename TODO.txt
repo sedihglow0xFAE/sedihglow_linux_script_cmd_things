@@ -1,0 +1,20 @@
+/* General Build/Install of scripts on w.e linux system */
+- Write a script that sets up ~/bin with links to programs in this folder. 
+  - Eventually work toward a script to set up newer enviroments.
+	- Eventually have the script be able to take the user through setting up
+	  different variations or setting up differnt linux systems as i run into
+	  it
+
+/* RNG SEEDING */
+- Look at building a good function to obtain a seed for RNG.
+  - In C in particular
+	- More ways than just pulling from linux random. Find something solid for
+	  general use.
+  - In Python3 (Check what all python has tho, likely done in a good enough
+	way already standardly because python things. crypto related libs (secret?))
+  - cmd_msg
+
+/* 86 lightbulbs */
+- Just quickly make it print it in an infinite loop that closes cleaning
+  catching the sigs.
+  - bash/python/C
